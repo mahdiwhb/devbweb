@@ -1,0 +1,81 @@
+body{ background-image: url("/image/lalala.jpeg"); background-size: cover; background-repeat: no-repeat;
+}
+.ProjectByA1stYearInBachelor{
+  width: 336px; height: 56px; left: 1300px; top: 720px; position: absolute; color: white; font-size: 24px; font-family: Antic; font-weight: 400; word-wrap: break-word
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: -35px;
+}
+
+
+.description{
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-family: 'Inter';
+  justify-content: space-around;
+}
+.description img{
+  width:300px;
+  height: 200px;
+}
+.image1 {
+  display: flex;
+  height: 100px;
+}
+.go{
+  margin-top: -5px;
+  display: flex;
+  justify-content:  space-around;
+}
+
+.go img{
+  width : 200px;
+height : 100px;
+
+}
+@media (max-width: 768px) {
+  body{   
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .ProjectByA1stYearInBachelor {
+    width: 100%; /* Utiliser la pleine largeur */
+    height: auto; /* Ajuster la hauteur automatiquement */
+    left: 0; /* Aligner à gauche */
+    top: auto; /* Position top ajustée */
+    font-size: 18px; /* Taille de police réduite */
+    padding: 10px; /* Ajouter du padding */
+  }
+  
+  .title, .description, .image1  {
+    flex-direction: column; /* Empiler verticalement */
+    align-items: center; /* Centrer les éléments */
+    margin-top: 50px;
+    font-size: 15px; /* Espacement vertical */
+  }
+  .go{
+    margin-top: -5px;
+  display: flex;
+  justify-content:  space-around;
+    
+  }
+  .description img, .go img {
+    width: 30%; /* Pleine largeur pour les images */
+    height: auto; 
+    margin-top: -50px;/* Ajuster la hauteur automatiquement */
+  }
+  
+  .title {
+    font-size: 15px; 
+    margin-top: 50px;
+    
+  }
+  .description{
+    font-size: 10px;
+  }
+}
