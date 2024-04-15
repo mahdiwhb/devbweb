@@ -1,6 +1,9 @@
-body{ background-image: url("/image/ffff.jpeg"); background-size: cover; background-repeat: no-repeat; margin: 0;
+body {
+  background-image: url("/image/ffff.jpeg");
+  background-size: 100% 100%; 
+  background-repeat: no-repeat;
+  margin: 0;
   height: 100vh;
-  
 }
 .Contacts{
   width: 202px; height: 78px; left: 60%; top: 51%; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Kiwi Maru; font-weight: 400; word-wrap: break-word; margin-left: 200px;text-decoration:none !important;

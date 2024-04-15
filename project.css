@@ -1,8 +1,7 @@
 body{ background-image: url("/image/ffff.jpeg"); background-size: cover; background-repeat: no-repeat; margin: 0;
   height: 100vh;
   
-}
-.background-image {
+}ckground-image {
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
