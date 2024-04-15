@@ -1,4 +1,5 @@
-body{ background-image: url("/image/lalala.jpeg"); background-size: cover; background-repeat: no-repeat;
+body{ background-image: url("/image/ffff.jpeg"); background-size: cover; background-repeat: no-repeat; margin: 0;
+  height: 100vh;
   
 }
 .background-image {
@@ -19,12 +20,6 @@ body{ background-image: url("/image/lalala.jpeg"); background-size: cover; backg
 .titre {
   display: flex;
   justify-content: center;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  justify-content:last baseline; 
 }
 
 .Projet {
@@ -52,6 +47,6 @@ body{ background-image: url("/image/lalala.jpeg"); background-size: cover; backg
 
 .textc {
   color: white;
-  margin-top: 100px;
+  margin-top: 150px;
   
 }

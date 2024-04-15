@@ -1,17 +1,18 @@
-body{ background-image: url("/image/lalala.jpeg"); background-size: cover;
-
+body{ background-image: url("/image/ffff.jpeg"); background-size: cover; background-repeat: no-repeat; margin: 0;
+  height: 100vh;
+  
 }
 .WouhaibiMahdiB1a{
-  width: 127px; height: 43px; left: 17px; top: 26px; position: absolute; color: black; font-size: 32px; font-family: Antic; font-weight: 400; word-wrap: break-word
+  width: 127px; height: 43px; left: 0%; top: 0%; position: absolute; color: black; font-size: 32px; font-family: Antic; font-weight: 400; word-wrap: break-word
 }
 .ProjectByA1stYearInBachelor{
-  width: 336px; height: 56px; left: 1300px; top: 720px; position: absolute; color: white; font-size: 24px; font-family: Antic; font-weight: 400; word-wrap: break-word
+  width: 336px; height: 56px; left: 80%; top: 90%; position: absolute; color: white; font-size: 24px; font-family: Antic; font-weight: 400; word-wrap: break-word
 }
 .TapScreen{
-  width: 678px; height: 93px; left: 680px; top: 300px; position: absolute; color: black; font-size: 64px; font-family: Antic; font-weight: 400; word-wrap: break-word
+  width: 678px; height: 93px; left: 40%; top: 40%; position: absolute; color: black; font-size: 64px; font-family: Antic; font-weight: 400; word-wrap: break-word
 }
 .B1a{
-  width: 125px; height: 48px; left: 1550px; top: 21px; position: absolute; color: black; font-size: 48px; font-family: Antic; font-weight: 400; word-wrap: break-word
+  width: 125px; height: 48px; left: 92%; top:0%; position: absolute; color: black; font-size: 48px; font-family: Antic; font-weight: 400; word-wrap: break-word
 }
 .TapScreen a{
   text-decoration: none !important;

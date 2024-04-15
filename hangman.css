@@ -1,7 +1,6 @@
-body{ background-image: url("/image/lalala.jpeg"); background-size: cover;
-}
-.ProjectByA1stYearInBachelor{
-  width: 336px; height: 56px; left: 1300px; top: 720px; position: absolute; color: white; font-size: 24px; font-family: Antic; font-weight: 400; word-wrap: break-word
+body{ background-image: url("/image/ffff.jpeg"); background-size: cover; background-repeat: no-repeat; margin: 0;
+  height: 100vh;
+  
 }
 .title {
   display: flex;

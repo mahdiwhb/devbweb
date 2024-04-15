@@ -1,26 +1,18 @@
-body{ background-image: url("/image/lalala.jpeg"); background-size: cover;
-
-}
-.ProjectByA1stYearInBachelor{
-  width: 336px; height: 56px; left: 1300px; top: 720px; position: absolute; color: white; font-size: 24px; font-family: Antic; font-weight: 400; word-wrap: break-word
-}
-.WouhaibiMahdiB1a{
-  width: 125px; height: 48px; left: 1550px; top: 21px; position: absolute; color: black; font-size: 48px; font-family: Antic; font-weight: 400; word-wrap: break-word; white-space: nowrap; margin-left: -200px;
-}
-.Kisspng{
-  width: 161px; height: 89px; left: 640px; top: 573px; position: absolute
+body{ background-image: url("/image/ffff.jpeg"); background-size: cover; background-repeat: no-repeat; margin: 0;
+  height: 100vh;
+  
 }
 .Contacts{
-  width: 202px; height: 78px; left: 984px; top: 412px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Kiwi Maru; font-weight: 400; word-wrap: break-word; margin-left: 200px;text-decoration:none !important;
+  width: 202px; height: 78px; left: 60%; top: 51%; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Kiwi Maru; font-weight: 400; word-wrap: break-word; margin-left: 200px;text-decoration:none !important;
 }
 .AboutMe{
-  width: 202px; height: 78px; left: 574px; top: 415px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Kiwi Maru; font-weight: 400; word-wrap: break-word;margin-left: 180px;text-decoration:none !important;
+  width: 202px; height: 78px; left: 35%; top: 51%; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Kiwi Maru; font-weight: 400; word-wrap: break-word;margin-left: 180px;text-decoration:none !important;
 }
 .Projects{
-  width: 202px; height: 78px; left: 164px; top: 412px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Kiwi Maru; font-weight: 400; word-wrap: break-word;margin-left: 80px;text-decoration:none !important;
+  width: 202px; height: 78px; left: 10%; top: 51%; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Kiwi Maru; font-weight: 400; word-wrap: break-word;margin-left: 80px;text-decoration:none !important;
 }
 
 .Contacts a, .AboutMe a, .Projects a {
   text-decoration: none !important;
-  color: inherit; /* Garde la couleur du texte définie par le div parent */
+  color: inherit; 
 }
