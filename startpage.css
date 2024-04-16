@@ -1,20 +1,113 @@
-body{ background-image: url("/image/ffff.jpeg"); background-size: cover; background-repeat: no-repeat; margin: 0;
+body{ background-image: url("/image/ffff.jpeg"); background-size: cover;
+   background-repeat: no-repeat; 
+   margin: 0;
   height: 100vh;
+
   
 }
-.WouhaibiMahdiB1a{
-  width: 127px; height: 43px; left: 0%; top: 0%; position: absolute; color: black; font-size: 32px; font-family: Antic; font-weight: 400; word-wrap: break-word
+.WouhaibiMahdiB1a {
+  position: absolute;
+  color: black;
+  font-size: 32px; 
 }
-.ProjectByA1stYearInBachelor{
-  width: 336px; height: 56px; left: 80%; top: 90%; position: absolute; color: white; font-size: 24px; font-family: Antic; font-weight: 400; word-wrap: break-word
+
+.ProjectByA1stYearInBachelor {
+  left: 80%;
+  top: 90%;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  
 }
-.TapScreen{
-  width: 678px; height: 93px; left: 40%; top: 40%; position: absolute; color: black; font-size: 64px; font-family: Antic; font-weight: 400; word-wrap: break-word
+
+.TapScreen {
+  left: 40%;
+  top: 40%;
+  position: absolute;
+  color: black;
+  font-size: 64px;
+ 
 }
-.B1a{
-  width: 125px; height: 48px; left: 92%; top:0%; position: absolute; color: black; font-size: 48px; font-family: Antic; font-weight: 400; word-wrap: break-word
+
+.B1a {
+  left: 92%;
+  position: absolute;
+  color: black;
+  font-size: 48px;
+  
 }
+
 .TapScreen a{
   text-decoration: none !important;
   color: inherit; 
+}
+
+
+@media only screen and (max-width: 767px) {
+  body{ background-image: url("/image/ffff.jpeg"); background-size: cover;
+    background-repeat: no-repeat; 
+    margin: 0;
+   height: 127vh; 
+ }
+  .WouhaibiMahdiB1a {
+    width: 80%; 
+    font-size: 24px;
+    top: 20px; 
+    left: 10px; 
+     
+  }
+  .ProjectByA1stYearInBachelor {
+    width: 80%; 
+    font-size: 18px;
+    top: 800px; 
+    left: 90px; 
+    text-align: center; 
+  }
+
+  .TapScreen {
+    width: 80%; 
+    font-size: 36px;
+    top: 400px; 
+    left: 40px; 
+    text-align: center; 
+  }
+
+  .B1a {
+    width: 80%; 
+    font-size: 36px;
+    top: 7px; 
+    left: 180px; 
+    text-align: center; 
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .WouhaibiMahdiB1a {
+    width: 80%; 
+    font-size: 24px;
+    top: 20px; 
+    left: 10px; 
+     
+  }
+  .ProjectByA1stYearInBachelor {
+    width: 80%; 
+    font-size: 18px;
+    top: 990px; 
+    left: 500px; 
+  }
+
+  .TapScreen {
+    width: 80%; 
+    font-size: 36px;
+    top: 400px; 
+    left: 100px; 
+    text-align: center; 
+  }
+
+  .B1a {
+    width: 80%; 
+    font-size: 36px;
+    top: 7px; 
+    left: 680px; 
+    
+  }
 }

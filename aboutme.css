@@ -1,15 +1,19 @@
-body{ background-image: url("/image/ffff.jpeg"); background-size: cover; background-repeat: no-repeat; margin: 0;
+body {
+  background-image: url("/image/ffff.jpeg");
+  background-size: 100% 100%; 
+  background-repeat: no-repeat;
+  margin: 0;
   height: 100vh;
-  
 }
-.titre {
+.title {
   display: flex;
   justify-content: center;
   font-size: 150%;
+  margin-top: 40px;
 }
 .me{
   display: flex;
   justify-content: center;
   font-size: 100%;
-  font-family: 'Inter';
+  margin-top: 35px;
 }
