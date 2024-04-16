@@ -34,3 +34,33 @@ body{ background-image: url("/image/ffff.jpeg");
   text-decoration: none !important;
   color: inherit; 
 }
+
+@media only screen and (max-width: 767px) {
+  body{ background-image: url("/image/ffff.jpeg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    height: 135vh;
+    
+  }
+  @media only screen and (max-width: 767px) {
+    .Contacts {
+      top: 70%;
+      left: -10%;
+    }
+  
+    .AboutMe {
+      top: 50%;
+      left: -6%;
+    }
+  
+    .Projects {
+      top: 30%;
+      left: 5%;
+    }
+  
+    .Contacts, .AboutMe, .Projects {
+      font-size: 24px;
+    }
+  }
+}
