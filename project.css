@@ -2,11 +2,6 @@ body{ background-image: url("/image/ffff.jpeg"); background-size: cover; backgro
   height: 100vh;
   
 }
-
-.Project {
-  font-size: 50px;
-}
-
 .center {
   display: flex;
   justify-content: center; 
@@ -17,6 +12,7 @@ body{ background-image: url("/image/ffff.jpeg"); background-size: cover; backgro
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  font-size: 20px;
 }
 
 .text {
